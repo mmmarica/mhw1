@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+}
+
+/*header*/
+header {
+    height: 2000px;
+}
+
+/*prima line*/
+#firstline {
+    display: flex;
+    height: 3%;
+    justify-content: flex-start;
+    font-family: Arial, sans-serif;
+
+    padding: 0.375rem 1.375rem 0.4375rem 1rem;
+}
+
+#firstline_sx {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.linesx{
+    display: flex;
+    margin-right: 5px;
+}   
+.firstlink{
+    justify-content: flex-start;
+    color: black;
+    font-size: 12px;
+    margin-top: 10px;
+}  
+.img{
+    height:auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+#firstline_dx {
+    display: flex;
+    width: 40%;
+    justify-content: right;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+/*nav*/
+nav {
+    display: flex;
+    height: 5.5%;
+    flex-direction: column;
+    background-color:black;
+}
+#navigazione{
+    display:flex;
+    height: 50%;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.barraricerca{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: 1.25rem;
+    overflow: visible;
+    padding: 0 30px;
+    height: 100%;
+} 
+.barraricerca input{
+    width: 100%;
+}
+#logo{
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 30px;
+}
+#opzioni{
+    display: flex;
+    height: 50%;
+    align-items: end;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}  
+.option{
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+/* spazio immagine*/
+#section_img{
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #fc9285 40%, #c8d796 60%);
+}
+
+/*corpo*/
+#corpo{
+    display: flex;
+    height: 800px;
+    width: 50%;
+    flex-direction: column;
+    justify-content:start;
+    margin: auto;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+} 
+.linkbox{
+    color: rgb(32, 29, 29);
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+}   
+.shop-categorie{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    margin-top: 80px;
+}   
+.categoria{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.imgcat{
+    height: 80px;
+    width: auto;
+    border-radius: 50%;
+}
+.nome-cat{
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#offertesettimana{
+    display: flex;
+    height: 400px;
+    margin-top: 60px;
+    flex-direction: column;
+}   
+.textbody{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}  
+.prodotti{
+    display: flex;
+    justify-content: center;
+}  
+.item{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 0.375rem 0;
+    width: 22%;
+    margin:10px;
+}  
+.par{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+.brand{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+.imgprodotti{
+   width: auto;
+   height: auto;
+   max-width:  160px;
+   margin: 0;
+   max-height: 160px;
+}
+/*fine header*/
+
+
+/*footer*/
+footer {
+    display: flex;
+    height: 1000px;
+    background-color: black;
+}
+#coda{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;  
+}  
+#contatti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hsmallfooter{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hfooter{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-right: 40px;
+} 
+#email{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid whitesmoke;
+}
+#chisiamo{
+    margin-bottom: 20px;
+    border-bottom: 1px solid whitesmoke;
+
+}
+.listachisiamo{
+    margin: 0;
+    padding: 0.375rem 0;
+    width: 33%;
+}
+.scrittachisiamo{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#app{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid whitesmoke;
+}
+.applicazione{
+    width: 20%;
+    flex-direction: column;
+}
+.imgapp{
+    height:auto;
+    max-height: 85%;
+    width: auto;
+    max-width: 85%;
+    border-radius: 25%;
+}
+#paesi{
+    margin-bottom: 20px;
+    border-bottom: 1px solid whitesmoke;
+}
+ul{
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0.9rem 0 0;
+}
+.listapaesi{
+    margin: 0;
+    padding: 0.375rem 0;
+    width: 25%;
+}
+.nomepaese{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lastline{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: transparent;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+.carta{ /*img_metodo_pagamento*/
+    background-color: #ffffff;
+    height: 35px;
+    width: 45px;
+    border-radius: 30%;
+}  
+#marchioregistrato{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 90px;
+}
+p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media only screen and (min-width:150px) and (max-width:700px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+ }
+ #firstline{
+    position: absolute;
+    inset: 0.5rem auto auto 0.5rem;
+    transform: translateY(-200%);
+    color: white;
+ }
+ #navigazione{
+    align-items: center;
+    background-color: #000;
+    box-sizing: border-box;
+    display: flex;
+    height: 2.8125rem;
+    padding: 0.375rem 1.3125rem 0.4375rem 1rem;
+    width: 100vw;
+ }
+
+ .divnav{
+    margin-right: 1.125rem;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+ }
+ #opzioni{
+    display: none;
+ }
+ .option{
+    display: block;
+ }
+ #corpo{
+    margin: 0;
+    padding: 0;
+ }
+ .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+ #footer{
+    display: flex;
+    background-color: black!important;
+    font-size: 87.5%;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+ }
+ .applicazioni{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+ #pagamenti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+ }
+
